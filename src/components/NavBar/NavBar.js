@@ -1,11 +1,12 @@
 import React from 'react';
 import {Box, Breadcrumbs} from "@mui/material";
+import style from './NavBar.css'
 
 
 const NavBar = () => {
     return (
-        <Box display="flex" justifyContent='space-between'>
-            <Box alignSelf="center" m={2} >MR</Box>
+        <Box sx={{display: 'flex', justifyContent: 'space-between'}} >
+            <Box alignSelf="center" m={1} >MR</Box>
             <Box pr={1}>
                 <Breadcrumbs aria-label="breadcrumb">
                     <h4 >Home</h4>
