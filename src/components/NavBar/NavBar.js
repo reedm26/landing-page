@@ -1,6 +1,5 @@
 import React from 'react';
 import {Box, Breadcrumbs} from "@mui/material";
-import style from './NavBar.css'
 
 
 const NavBar = () => {

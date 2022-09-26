@@ -2,7 +2,6 @@ import React from 'react';
 import {Box} from "@mui/material";
 import NavBar from "../../components/NavBar/NavBar";
 import bgPic from '../../assests/home-background.jpg'
-import style from './Home.css'
 
 const Home = () => {
     return (
